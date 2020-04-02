@@ -1,0 +1,23 @@
+.icon {
+    position: fixed;
+    top: 80px;
+    right: 10px;
+}
+
+.icon:hover{
+    cursor: progress;
+
+}
+.icon:hover + .tooltip-content{
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    background-color: black;
+    top: 10%;
+    color: white;
+
+}
+.tooltip-content{
+    display: none;
+}
